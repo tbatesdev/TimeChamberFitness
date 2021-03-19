@@ -6,4 +6,8 @@ html {
       background-size: cover;
   }
 
+  .jumbotron.bg-cover h1{
+    text-shadow: navy 2px 2px 3px
+  }
+
   
