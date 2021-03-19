@@ -10,4 +10,7 @@ html {
     text-shadow: navy 2px 2px 3px
   }
 
-  
+  .fas {
+    color: white;
+    background-color: white;
+  }
