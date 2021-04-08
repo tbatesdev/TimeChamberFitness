@@ -11,3 +11,6 @@ header{
     text-shadow: #343a40 4px 4px 4px ;
 }
 
+.col-lg-4.col-md-6.mb-4{
+    margin-left: 100px
+}
