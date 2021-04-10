@@ -7,9 +7,10 @@
 }
 
 body{
-    background-color: white
+    background-color: rgb(243, 107, 186)
 }
 
 .jumbotron.bg-cover h1{
     font-size: 80px;
+    color: white;
 }
