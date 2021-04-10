@@ -14,3 +14,21 @@ body{
     font-size: 80px;
     color: white;
 }
+
+
+
+.chamberpage .homebtn{
+    position:fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-0%, -50%);
+  background-color: goldenrod;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
