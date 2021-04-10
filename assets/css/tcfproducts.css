@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(198, 194, 240)
+    background-color: rgb(247, 157, 209)
 }
 
 header{
@@ -8,7 +8,7 @@ header{
     font-size: 70px;
     margin-bottom: 50px;
     color: white;
-    text-shadow: #343a40 5px 5px 5px ;
+    text-shadow: navy 5px 5px 5px ;
 }
 
 .col-lg-4.col-md-6.mb-4{
