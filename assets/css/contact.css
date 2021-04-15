@@ -1,5 +1,5 @@
 body {font-family: Arial, Helvetica, sans-serif;
-background-color: goldenrod;}
+background-color: rgb(243, 107, 186);}
 * {box-sizing: border-box;}
 
 input[type=text], select, textarea {
@@ -14,7 +14,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: rgb(243, 107, 186);
+  background-color: #0062cc;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -23,7 +23,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: goldenrod;
+  background-color: rgb(243, 107, 186);
 }
 
 .container {
