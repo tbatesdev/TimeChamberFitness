@@ -52,7 +52,8 @@
         <div class="card-body">
           <h4 class="card-title">Treadmill</h4>
           <p class="card-text">This is our state of the art treadmill!</p>
-          <a href="#" class="btn btn-primary">View More</a>
+          <button href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal">View More</button>
+          
         </div>
       </div>
     </div>
@@ -62,7 +63,7 @@
         <div class="card-body">
           <h4 class="card-title">Dumbell Set</h4>
           <p class="card-text">Grab yourself a set and get busy!</p>
-          <a href="#" class="btn btn-primary">View More</a>
+          <button href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal">View More</button>
         </div>
       </div>
     </div>
@@ -72,7 +73,7 @@
         <div class="card-body">
           <h4 class="card-title">Exercise Ball</h4>
           <p class="card-text">It's time to go harder!</p>
-          <a href="#" class="btn btn-primary">View More</a>
+          <button href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal">View More</button>
         </div>
       </div>
     </div>
@@ -82,7 +83,7 @@
         <div class="card-body">
           <h4 class="card-title">HIIT Kit</h4>
           <p class="card-text">This is our state of the art treadmill</p>
-          <a href="#" class="btn btn-primary">View More</a>
+          <button href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal">View More</button>
         </div>
       </div>
     </div>
@@ -92,7 +93,7 @@
         <div class="card-body">
           <h4 class="card-title">Steppers</h4>
           <p class="card-text">This is our state of the art treadmill</p>
-          <a href="#" class="btn btn-primary">View More</a>
+          <button href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal">View More</button>
         </div>
       </div>
     </div>
@@ -102,7 +103,7 @@
         <div class="card-body">
           <h4 class="card-title">Weight Lifting Machine</h4>
           <p class="card-text">This is our state of the art treadmill</p>
-          <a href="#" class="btn btn-primary">View More</a>
+          <button href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal">View More</button>
         </div>
       </div>
     </div>
@@ -112,7 +113,7 @@
         <div class="card-body">
           <h4 class="card-title">Bike</h4>
           <p class="card-text">Get your legs right with our stellar bikes!</p>
-          <a href="#" class="btn btn-primary">View More</a>
+          <button href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal">View More</button>
         </div>
       </div>
     </div>
@@ -122,7 +123,7 @@
         <div class="card-body">
           <h4 class="card-title">Medicine Ball</h4>
           <p class="card-text">It's the best medicine ball around!</p>
-          <a href="#" class="btn btn-primary">View More</a>
+          <button href="#" class="btn btn-primary medicine-ball" data-toggle="modal" data-target="#myModal">View More</button>
         </div>
       </div>
     </div>
@@ -132,7 +133,7 @@
         <div class="card-body">
           <h4 class="card-title">Jump Rope</h4>
           <p class="card-text">Our jump ropes are the best around!</p>
-          <a href="#" class="btn btn-primary">View More</a>
+          <button href="" class="btn btn-primary jump-rope" data-toggle="modal" data-target="#myModal">View More</button>
         </div>
       </div>
     </div>
@@ -142,7 +143,32 @@
         <div class="card-body">
           <h4 class="card-title">Weight Bar</h4>
           <p class="card-text">Our weight bar will get you right!</p>
-          <a href="#" class="btn btn-primary">View More</a>
+          <button href="" class="btn btn-primary weight-bar" data-toggle="modal" data-target="#myModal">View More</button>
+          <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Add Item to Cart</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <img src="`${image}`" alt="">
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
         </div>
       </div>
     </div>
