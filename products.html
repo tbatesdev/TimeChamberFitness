@@ -9,6 +9,7 @@
       <link rel="stylesheet" href="assets/css/cards.css">
       <link rel="stylesheet" href="assets/css/tba-style.css">
       <link rel="stylesheet" href="assets/css/tcfproducts.css">
+      <link rel="stylesheet" href="assets/css/modal.css">
       <script src="assets/js/jquery.min.js"></script>
       <script src="assets/js/bootstrap.min.js"></script>
 </head>
@@ -52,7 +53,7 @@
         <div class="card-body">
           <h4 class="card-title">Treadmill</h4>
           <p class="card-text">This is our state of the art treadmill!</p>
-          <button href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal">View More</button>
+          <button href="#myModal1" class="btn btn-primary cardio modal-button" data-toggle="modal" data-target="#myModal">View More</button>
           
         </div>
       </div>
@@ -63,7 +64,7 @@
         <div class="card-body">
           <h4 class="card-title">Dumbell Set</h4>
           <p class="card-text">Grab yourself a set and get busy!</p>
-          <button href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal">View More</button>
+          <button href="#myModal2" class="btn btn-primary weight-rack modal-button" data-toggle="modal" data-target="#myModal">View More</button>
         </div>
       </div>
     </div>
@@ -73,7 +74,7 @@
         <div class="card-body">
           <h4 class="card-title">Exercise Ball</h4>
           <p class="card-text">It's time to go harder!</p>
-          <button href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal">View More</button>
+          <button href="#myModal3" class="btn btn-primary exercise-ball modal-button" data-toggle="modal" data-target="#myModal">View More</button>
         </div>
       </div>
     </div>
@@ -83,7 +84,7 @@
         <div class="card-body">
           <h4 class="card-title">HIIT Kit</h4>
           <p class="card-text">This is our state of the art treadmill</p>
-          <button href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal">View More</button>
+          <button href="#myModal4" class="btn btn-primary hiit modal-button" data-toggle="modal" data-target="#myModal">View More</button>
         </div>
       </div>
     </div>
@@ -93,7 +94,7 @@
         <div class="card-body">
           <h4 class="card-title">Steppers</h4>
           <p class="card-text">This is our state of the art treadmill</p>
-          <button href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal">View More</button>
+          <button href="#myModal5" class="btn btn-primary steppers modal-button" data-toggle="modal" data-target="#myModal">View More</button>
         </div>
       </div>
     </div>
@@ -103,7 +104,7 @@
         <div class="card-body">
           <h4 class="card-title">Weight Lifting Machine</h4>
           <p class="card-text">This is our state of the art treadmill</p>
-          <button href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal">View More</button>
+          <button href="#myModal6" class="btn btn-primary weight-machine modal-button" data-toggle="modal" data-target="#myModal">View More</button>
         </div>
       </div>
     </div>
@@ -113,7 +114,7 @@
         <div class="card-body">
           <h4 class="card-title">Bike</h4>
           <p class="card-text">Get your legs right with our stellar bikes!</p>
-          <button href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal">View More</button>
+          <button href="#myModal7" class="btn btn-primary bike modal-button" data-toggle="modal" data-target="#myModal">View More</button>
         </div>
       </div>
     </div>
@@ -123,7 +124,7 @@
         <div class="card-body">
           <h4 class="card-title">Medicine Ball</h4>
           <p class="card-text">It's the best medicine ball around!</p>
-          <button href="#" class="btn btn-primary medicine-ball" data-toggle="modal" data-target="#myModal">View More</button>
+          <button href="#myModal8" class="btn btn-primary medicine-ball modal-button" data-toggle="modal" data-target="#myModal">View More</button>
         </div>
       </div>
     </div>
@@ -133,7 +134,7 @@
         <div class="card-body">
           <h4 class="card-title">Jump Rope</h4>
           <p class="card-text">Our jump ropes are the best around!</p>
-          <button href="" class="btn btn-primary jump-rope" data-toggle="modal" data-target="#myModal">View More</button>
+          <button href="#myModal9" class="btn btn-primary jump-rope modal-button" data-toggle="modal" data-target="#myModal">View More</button>
         </div>
       </div>
     </div>
@@ -143,30 +144,202 @@
         <div class="card-body">
           <h4 class="card-title">Weight Bar</h4>
           <p class="card-text">Our weight bar will get you right!</p>
-          <button href="" class="btn btn-primary weight-bar" data-toggle="modal" data-target="#myModal">View More</button>
-          <div class="modal fade" id="myModal">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-      
-        <!-- Modal Header -->
-        <div class="modal-header">
-          <h4 class="modal-title">Add Item to Cart</h4>
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-        </div>
-        
-        <!-- Modal body -->
-        <div class="modal-body">
-          <img src="`${image}`" alt="">
-        </div>
-        
-        <!-- Modal footer -->
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
-        
-      </div>
-    </div>
-  </div>
+          <button href="#myModal10" class="btn btn-primary weight-bar modal-button" data-toggle="modal" data-target="#myModal">View More</button>
+          
+
+          <!-- Trigger/Open The Modal -->
+          
+          
+          <!-- The Modal -->
+          <div id="myModal1" class="modal">
+          
+            <!-- Modal content -->
+            <div class="modal-content">
+              <div class="modal-header">
+                <span class="close">×</span>
+                <h2>Modal Header</h2>
+              </div>
+              <div class="modal-body">
+                <p>Some text in the Modal Body</p>
+                <p>Some other text...</p>
+              </div>
+              <div class="modal-footer">
+                <h3>Modal Footer</h3>
+              </div>
+            </div>
+          
+          </div>
+          <!-- The Modal -->
+          <div id="myModal2" class="modal">
+          
+            <!-- Modal content -->
+            <div class="modal-content">
+              <div class="modal-header">
+                <span class="close">×</span>
+                <h2>Modal Header</h2>
+              </div>
+              <div class="modal-body">
+                <p>Some text in the Modal Body</p>
+                <p>Some other text...</p>
+              </div>
+              <div class="modal-footer">
+                <h3>Modal Footer</h3>
+              </div>
+            </div>
+          
+          </div>
+          <!-- The Modal -->
+          <div id="myModal3" class="modal">
+          
+            <!-- Modal content -->
+            <div class="modal-content">
+              <div class="modal-header">
+                <span class="close">×</span>
+                <h2>Modal Header</h2>
+              </div>
+              <div class="modal-body">
+                <p>Some text in the Modal Body</p>
+                <p>Some other text...</p>
+              </div>
+              <div class="modal-footer">
+                <h3>Modal Footer</h3>
+              </div>
+            </div>
+          
+          </div>
+          <!-- The Modal -->
+          <div id="myModal4" class="modal">
+          
+            <!-- Modal content -->
+            <div class="modal-content">
+              <div class="modal-header">
+                <span class="close">×</span>
+                <h2>Modal Header</h2>
+              </div>
+              <div class="modal-body">
+                <p>Some text in the Modal Body</p>
+                <p>Some other text...</p>
+              </div>
+              <div class="modal-footer">
+                <h3>Modal Footer</h3>
+              </div>
+            </div>
+          
+          </div>
+          <div id="myModal5" class="modal">
+          
+            <!-- Modal content -->
+            <div class="modal-content">
+              <div class="modal-header">
+                <span class="close">×</span>
+                <h2>Modal Header</h2>
+              </div>
+              <div class="modal-body">
+                <p>Some text in the Modal Body</p>
+                <p>Some other text...</p>
+              </div>
+              <div class="modal-footer">
+                <h3>Modal Footer</h3>
+              </div>
+            </div>
+          
+          </div>
+          <div id="myModal6" class="modal">
+          
+            <!-- Modal content -->
+            <div class="modal-content">
+              <div class="modal-header">
+                <span class="close">×</span>
+                <h2>Modal Header</h2>
+              </div>
+              <div class="modal-body">
+                <p>Some text in the Modal Body</p>
+                <p>Some other text...</p>
+              </div>
+              <div class="modal-footer">
+                <h3>Modal Footer</h3>
+              </div>
+            </div>
+          
+          </div>
+          <div id="myModal7" class="modal">
+          
+            <!-- Modal content -->
+            <div class="modal-content">
+              <div class="modal-header">
+                <span class="close">×</span>
+                <h2>Modal Header</h2>
+              </div>
+              <div class="modal-body">
+                <p>Some text in the Modal Body</p>
+                <p>Some other text...</p>
+              </div>
+              <div class="modal-footer">
+                <h3>Modal Footer</h3>
+              </div>
+            </div>
+          
+          </div>
+          <div id="myModal8" class="modal">
+          
+            <!-- Modal content -->
+            <div class="modal-content">
+              <div class="modal-header">
+                <span class="close">×</span>
+                <h2>Modal Header</h2>
+              </div>
+              <div class="modal-body">
+                <p>Some text in the Modal Body</p>
+                <p>Some other text...</p>
+              </div>
+              <div class="modal-footer">
+                <h3>Modal Footer</h3>
+              </div>
+            </div>
+          
+          </div>
+          <div id="myModal9" class="modal">
+          
+            <!-- Modal content -->
+            <div class="modal-content">
+              <div class="modal-header">
+                <span class="close">×</span>
+                <h2>Modal Header</h2>
+              </div>
+              <div class="modal-body">
+                <p>Some text in the Modal Body</p>
+                <p>Some other text...</p>
+              </div>
+              <div class="modal-footer">
+                <h3>Modal Footer</h3>
+              </div>
+            </div>
+          
+          </div>
+          
+         
+          
+          <!-- Trigger/Open The Modal -->
+          
+          <!-- The Modal -->
+          <div id="myModal10" class="modal">
+          
+            <!-- Modal content -->
+            <div class="modal-content">
+              <div class="modal-header">
+                <span class="close">×</span>
+                <h2>Modal Header</h2>
+              </div>
+              <div class="modal-body">
+                <p>Some text in the Modal Body</p>
+                <p>Some other text...</p>
+              </div>
+              <div class="modal-footer">
+                <h3>Modal Footer</h3>
+              </div>
+            </div>
+          
+          </div>
   
 </div>
         </div>
@@ -177,5 +350,6 @@
     <div class="jumbotron text-center bg-tcf" style="margin-bottom:0; color: white;">
       <p>&#169;Time Chamber Fitness</p>
     </div>
+    <script src="assets/js/modal.js"></script>
 </body>
 </html>
