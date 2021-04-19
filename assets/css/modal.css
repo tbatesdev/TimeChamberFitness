@@ -58,6 +58,9 @@
     padding: 2px 16px;
     background-color: navy;
     color: white;
+    display: flex;
+    flex-direction: row-reverse;
+
 }
 
 .modal-body {padding: 2px 16px;}
