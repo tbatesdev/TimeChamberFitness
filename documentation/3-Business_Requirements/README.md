@@ -17,14 +17,13 @@ Build a gym equipment website with purchasable items and user account informatio
 
 ###	About:
 ⦁	The user must be able to access this page and read the following information on the page
-⦁	Inside the Chamber: 
-⦁	The user should be able to acces this page. The user must be able to click on any of the 3 cards on the page and have the browser redirect the user to the appropiate corresponding page. 
-⦁	The 3 cards must individually say: Exercises, Subscriptions, Products
 
 ###	Products:
-⦁	The page must have 4 cards, each with an image that corresponds to the correct category. The categories are as follows: Health Supplements, Miscellaneous, Weights, Cardio Machines
-⦁	Under each card, there must be text for the category of the card
-⦁	The user must be able to access each product category and be redirected to the correct category page
+⦁	The page must have 10 cards, each with an image that corresponds to the correct product.
+
+⦁	Under each card, there must be text for the product of the card
+
+⦁	The user must be able to access each product card information through the "View More" button on each individual card
 
 ## Business Requirements/Back End:
 
@@ -41,9 +40,7 @@ Build a gym equipment website with purchasable items and user account informatio
 
 
 ###	Products (modal pop-up):
-⦁	Each Product sub-page must have a header saying "Products: (category)
-
-⦁	Each Prouct modal must have 10 cards with an image of the item.
+⦁	Each Product modal must have a header that says "Product Details" on the left and an "x" to close the modal on the left
 
 ⦁	Under each card, there must be a line of text that describes the product. Next to the description, there must be a price for each item within the card. 
 
