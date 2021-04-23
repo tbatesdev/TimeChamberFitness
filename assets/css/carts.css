@@ -5,16 +5,16 @@
     font-family: 'Roboto', sans-serif;
 }
 
-header {
+/* header {
     background-image: url('images/cover.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 150px;
     position: relative;
-}
+} */
 
-.overlay {
+/* .overlay {
     position: absolute;
     z-index: 1;
     top: 0;
@@ -25,7 +25,7 @@ header {
     padding: 0 !important;
     margin: 0 !important;
     background-color: rgba(10,10,10,0.3);
-}
+} */
 
 /* nav {
     position: absolute;
@@ -86,17 +86,17 @@ header {
     overflow: hidden;
 }
 
-.add-cart {
+/* .add-cart {
     position: absolute;
     width: 100%;
-    background-color: darkgrey;
-    transition: all 0.3s ease-in-out;
-    opacity: 0;
+    background-color: black;
+    /* transition: all 0.3s ease-in-out; */
+    /* opacity: 0;
     cursor: pointer;
     text-align: center;
-}
+} */ */
 
-.image:hover .cart1,
+/* .image:hover .cart1,
 .image:hover .cart2,
 .image:hover .cart3,
 .image:hover .cart4 {
@@ -104,7 +104,7 @@ header {
     opacity: 1;
     padding: 10px;
     text-decoration: none;
-}
+} */
 
 /* ----------------- CART PAGE --------------- */
 
