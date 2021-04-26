@@ -13,7 +13,7 @@ Build a gym equipment website with purchasable items and user account informatio
 ⦁	The user must have the ability to access all pages and functions of the Time Chamber Fitness website
 
 ###	Home Page: 
-⦁	The user must have the ability to access the home page click on any of the links in the nav bar. The user must also have the ability to access the the "Enter the Chamber" button
+⦁	The user must have the ability to access the home page click on any of the links in the nav bar. The user must also have the ability to access the the "Enter the Chamber" button in the middle of the home page
 
 ###	About:
 ⦁	The user must be able to access this page and read the following information on the page
@@ -21,9 +21,11 @@ Build a gym equipment website with purchasable items and user account informatio
 ###	Products:
 ⦁	The page must have 10 cards, each with an image that corresponds to the correct product.
 
-⦁	Under each card, there must be text for the product of the card
+⦁	Within each card body, there must be text for the product of the card
 
-⦁	The user must be able to access each product card information through the "View More" button on each individual card
+⦁	There must be a button that says "View More" under the text within the card body. When the user clicks this button, there must be a modal that opens with more details about the product
+
+⦁   There must be an "Add to Cart" button next to the "View More" button on each card. The user must be able to use this button to add items to their shopping cart
 
 ## Business Requirements/Back End:
 
@@ -35,7 +37,7 @@ Build a gym equipment website with purchasable items and user account informatio
 ⦁	The user must be able to access their own profile page. The profile page should have the folowing user information: Email, Password, Payment Method, Shipping Address.
 
 ⦁	The user must be able to edit the following information: Email, Password, Payment Method, Shipping Address.
-⦁	The user's purchase history must be visible on this page. The user's profile picture and username must also be visible on this page.
+⦁	The user's order history must be visible on this page. The user's profile picture and username must also be visible on this page.
 
 
 
@@ -48,10 +50,9 @@ Build a gym equipment website with purchasable items and user account informatio
 
 ⦁	When the user clicks "View More" button under the item image, there must be a modal that pops up
 
-⦁	Within the modal, there must be an image of the item and a button that says "Add to Cart".
  
 
 ###	Contact:
-⦁	The user must be able to the put information into the correct input fields: Name, Email, Phone Number
+⦁	The user must be able to the put information into the correct input fields: Name, Email, Comment Section
 
 ⦁	The user must be able to submit the information given in the input fields by clicking the "Submit" button
