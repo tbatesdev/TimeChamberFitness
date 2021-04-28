@@ -30,7 +30,7 @@ Build a gym equipment website with purchasable items and user account informatio
 ## Business Requirements/Back End:
 
 ###	Checkout:
-⦁	The follwoing must be visible on this page: User's Shopping Cart of items ready for purchase, payment method with input field, shipping address with text field, total price of all items in user's shopping cart
+⦁	The following must be visible on this page: User's Shopping Cart of items ready for purchase, payment method with input field, shipping address with text field, total price of all items in user's shopping cart
 
 ###	Profile
 
