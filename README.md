@@ -1,2 +1,2 @@
 # TimeChamberFitness
-project website that allows users to search and order fitness equipment
+project website that allows users to order fitness equipment
